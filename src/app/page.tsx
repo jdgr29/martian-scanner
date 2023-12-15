@@ -9,8 +9,9 @@ export default function Home() {
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
+
   return (
-    <div className="flex flex-col bg-[#1E1E1E] w-full items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col bg-[#1E1E1E] w-full items-center justify-center min-h-screen">
       <header className="text-4xl font-bold mb-4 text-[white]">NAITRAM</header>
       <div className="text-xl mb-8 text-[white]">QR Scanner</div>
       <Image

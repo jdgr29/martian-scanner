@@ -2,6 +2,7 @@
 import React from "react";
 import { BsUpcScan } from "react-icons/bs";
 import CircularProgress from "@/components/circularProgressBar";
+
 export default function ScanHistory() {
   return (
     <div className="2xl:px-[3em] lg:px-[3em] p-0 bg-[#1E1E1E] h-full w-full">
